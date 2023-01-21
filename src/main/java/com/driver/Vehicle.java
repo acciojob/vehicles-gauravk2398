@@ -7,38 +7,21 @@ public class Vehicle {
     private int currentDirection;
 
     public int getCurrentDirection() {
-        return currentDirection;
-    }
-
-    public void setCurrentDirection(int currentDirection) {
-        this.currentDirection = currentDirection;
+        return this.currentDirection;
     }
 
     public int getCurrentSpeed() {
-        return currentSpeed;
-    }
-
-    public void setCurrentSpeed(int currentSpeed) {
-        this.currentSpeed = currentSpeed;
+        return this.currentSpeed;
     }
 
     public String getName() {
-        this.name=name;
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+        return this.name;
     }
 
     public Vehicle(String name) {
         this.name=name;
         this.currentSpeed=0;
         this.currentDirection=0;
-    }
-
-    public Vehicle() {
-
     }
 
     public void steer(int direction){
